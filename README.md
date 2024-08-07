@@ -3,13 +3,18 @@
 ## Descrição do Projeto
 
 Este projeto consiste em um sistema para cadastro de produtos, marcas e categorias destinado a um ecommerce. Além disso, oferece a funcionalidade de visualização do carrinho de compras. Foi desenvolvido utilizando PHP e MySQL, com uma interface construída em HTML e CSS.
+![img](img/tela-inicial.png)
 
 ### Funcionalidades Principais
 
 1. **Cadastro de Produtos**: Permite adicionar novos produtos ao sistema.
+![img](img/cadastro-produtos.png)
 2. **Cadastro de Marcas**: Permite adicionar novas marcas ao sistema.
+![img](img/cadastro-marca.png)
 3. **Cadastro de Categorias**: Permite adicionar novas categorias ao sistema.
+![img](img/cadastro-categoria.png)
 4. **Visualização do Carrinho**: Exibe os produtos adicionados ao carrinho.
+![img](img/carrinho.png)
 
 ### Estrutura do Projeto
 
@@ -52,7 +57,7 @@ Além disso, inclui arquivos secundários para JavaScript, modelos, CSS e contro
 Para executar este projeto, é necessário ter o XAMPP e o phpMyAdmin instalados e configurados corretamente para gerenciar o banco de dados.
 
 ### Estrutura do Banco de Dados
-
+![img](img/bdd.png)
 O banco de dados foi estruturado de maneira a suportar as funcionalidades de cadastro e visualização de produtos, marcas e categorias.
 
 
