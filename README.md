@@ -34,8 +34,8 @@ Além disso, inclui arquivos secundários para JavaScript, modelos, CSS e contro
 
 #### Descrição dos Arquivos
 
-1. **carrinho.php**: Responsável por exibir o conteúdo do carrinho de compras, incluindo o arquivo `controller/carrinho-busca.php` para buscar e exibir os produtos no carrinho.
-   <!DOCTYPE html>
+1. **carrinho.php**: Responsável por exibir o conteúdo do carrinho de compras, incluindo o arquivo `controller/carrinho-busca.php` para buscar e exibir os produtos no carrinho
+```ruby <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -59,7 +59,7 @@ Além disso, inclui arquivos secundários para JavaScript, modelos, CSS e contro
 
   </body>
 </html>
-
+ ```
 2. **categoria.php**: Usado para cadastrar novas categorias de produtos, contém um formulário que envia dados para `insere-categoria.php` via método POST.
 
 3. **index.php**: Página inicial que exibe os produtos disponíveis, incluindo o arquivo `controller/produtos-busca.php` para buscar e exibir os produtos.
