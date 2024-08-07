@@ -35,7 +35,8 @@ Além disso, inclui arquivos secundários para JavaScript, modelos, CSS e contro
 #### Descrição dos Arquivos
 
 1. **carrinho.php**: Responsável por exibir o conteúdo do carrinho de compras, incluindo o arquivo `controller/carrinho-busca.php` para buscar e exibir os produtos no carrinho
-```ruby <!DOCTYPE html>
+```ruby
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -61,7 +62,8 @@ Além disso, inclui arquivos secundários para JavaScript, modelos, CSS e contro
 </html>
  ```
 2. **categoria.php**: Usado para cadastrar novas categorias de produtos, contém um formulário que envia dados para `insere-categoria.php` via método POST.
-```ruby <!DOCTYPE html>
+```ruby
+<!DOCTYPE html>
 <html lang="pt-br">
  
 <head>
@@ -88,11 +90,13 @@ Além disso, inclui arquivos secundários para JavaScript, modelos, CSS e contro
         </form>
     </section>
 </body>
-</html> ```
+</html>
+ ```
 
 3. **index.php**: Página inicial que exibe os produtos disponíveis, incluindo o arquivo `controller/produtos-busca.php` para buscar e exibir os produtos.
 
-```ruby <!DOCTYPE html>
+```ruby
+ <!DOCTYPE html>
 <html>
   <head>
     <!-- Material disponibilizado pelo professor Anderson Macedo -->
@@ -116,11 +120,13 @@ Além disso, inclui arquivos secundários para JavaScript, modelos, CSS e contro
     </section>
 
   </body>
-</html> ```
+</html>
+```
 
 4. **insere-categoria.php**: Processa o formulário de cadastro de categorias e insere os dados no banco de dados após validar o formulário.
 
-```ruby <?php
+```ruby
+ <?php
 include('controller/conexao.php');
  
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -139,11 +145,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
  
 mysqli_close($mysqli);
-?> ```
+?>
+```
 
 5. **insere-marca.php**: Processa o formulário de cadastro de marcas e insere os dados no banco de dados após validação.
 
-```ruby <?php
+```ruby
+<?php
 include('controller/conexao.php');
  
 $descricao = $_POST['descricao'];
@@ -159,11 +167,13 @@ if(mysqli_query($mysqli, $cad_marca)){
 }
  
 mysqli_close($mysqli);
-?> ```
+?>
+ ```
 
 6. **insere-produto.php**: Processa o formulário de cadastro de produtos, insere os dados no banco de dados e redireciona para a página de produtos com uma mensagem de sucesso ou erro.
 
-```ruby <?php
+```ruby
+<?php
 include_once('controller/conexao.php');
  
 $categoria = $_POST['seleciona_categoria'];
@@ -192,11 +202,12 @@ if(mysqli_affected_rows($mysqli)  != 0){
     </script>
     ";
  
-} ```
+}
+```
 
 7. **marca.php**: Usado para cadastrar novas marcas de produtos, contém um formulário que envia os dados para `insere-marca.php` via método POST.
 
-```ruby 
+```ruby
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -222,11 +233,13 @@ if(mysqli_affected_rows($mysqli)  != 0){
         </form>
     </section>
 </body>
-</html>```
+</html>
+```
 
 8. **pedido.php**: Exibe o resumo do pedido, incluindo o arquivo `controller/produtos-resumo.php` para buscar e exibir o resumo dos produtos do pedido.
 
-```ruby <!DOCTYPE html>
+```ruby
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -256,7 +269,8 @@ if(mysqli_affected_rows($mysqli)  != 0){
 
 9. **produtos.php**: Utilizado para cadastrar novos produtos, contém um formulário que envia os dados para `insere-produto.php` via método POST e popula os selects de categoria e marca com dados do banco de dados.
 
-```ruby <?php
+```ruby
+<?php
     include_once ('controller/conexao.php')
 ?>
 
@@ -319,7 +333,8 @@ if(mysqli_affected_rows($mysqli)  != 0){
         </form>
     </section>
 </body>
-</html> ```
+</html>
+ ```
 
 ### Ferramentas Utilizadas
 
