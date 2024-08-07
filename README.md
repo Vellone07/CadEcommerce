@@ -8,13 +8,13 @@ Este projeto consiste em um sistema para cadastro de produtos, marcas e categori
 ### Funcionalidades Principais
 
 1. **Cadastro de Produtos**: Permite adicionar novos produtos ao sistema.
-![img](img/cadastro-produtos.png)
+![img](cadastro-produtos.png)
 2. **Cadastro de Marcas**: Permite adicionar novas marcas ao sistema.
-![img](img/cadastro-marca.png)
+![img](cadastro-marca.png)
 3. **Cadastro de Categorias**: Permite adicionar novas categorias ao sistema.
-![img](img/cadastro-categoria.png)
+![img](cadastro-categoria.png)
 4. **Visualização do Carrinho**: Exibe os produtos adicionados ao carrinho.
-![img](img/carrinho.png)
+![img](carrinho.png)
 
 ### Estrutura do Projeto
 
@@ -57,7 +57,7 @@ Além disso, inclui arquivos secundários para JavaScript, modelos, CSS e contro
 Para executar este projeto, é necessário ter o XAMPP e o phpMyAdmin instalados e configurados corretamente para gerenciar o banco de dados.
 
 ### Estrutura do Banco de Dados
-![img](img/bdd.png)
+![img](bdd.png)
 O banco de dados foi estruturado de maneira a suportar as funcionalidades de cadastro e visualização de produtos, marcas e categorias.
 
 
